@@ -1,0 +1,48 @@
+# Ignore build artifacts and binaries
+*.exe
+*.o
+*.obj
+*.dll
+*.log
+*.out
+*.a
+*.lib
+*.so
+*.pdb
+*.idb
+*.class
+*.pyc
+*.tmp
+
+# Ignore VS Code settings (optional, keep if you want to share project settings)
+# .vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake and build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore user-specific files
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+
+# Ignore runtime DLLs and generated output
+dll/
+output/
+
+# Keep assets, screenshots, and demo files for documentation
+!assets/
+!screenshots/
+!demo/ 
+
+# API KEY
+config.h
